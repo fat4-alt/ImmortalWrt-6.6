@@ -92,7 +92,6 @@ jobs:
         ./scripts/feeds install -a
         ./scripts/feeds update qmodem
         ./scripts/feeds install -a -p qmodem
-        ./scripts/feeds install -a -f -p qmodem
         
 
     # --------------------------------------------------------
